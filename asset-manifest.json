@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/logic-social-influence/static/css/main.c404fb8c.chunk.css",
+    "main.js": "/logic-social-influence/static/js/main.1683e7c3.chunk.js",
+    "main.js.map": "/logic-social-influence/static/js/main.1683e7c3.chunk.js.map",
+    "runtime-main.js": "/logic-social-influence/static/js/runtime-main.906d989f.js",
+    "runtime-main.js.map": "/logic-social-influence/static/js/runtime-main.906d989f.js.map",
+    "static/css/2.4ce9e501.chunk.css": "/logic-social-influence/static/css/2.4ce9e501.chunk.css",
+    "static/js/2.0980dee4.chunk.js": "/logic-social-influence/static/js/2.0980dee4.chunk.js",
+    "static/js/2.0980dee4.chunk.js.map": "/logic-social-influence/static/js/2.0980dee4.chunk.js.map",
+    "static/js/3.c099cc38.chunk.js": "/logic-social-influence/static/js/3.c099cc38.chunk.js",
+    "static/js/3.c099cc38.chunk.js.map": "/logic-social-influence/static/js/3.c099cc38.chunk.js.map",
+    "index.html": "/logic-social-influence/index.html",
+    "static/css/2.4ce9e501.chunk.css.map": "/logic-social-influence/static/css/2.4ce9e501.chunk.css.map",
+    "static/css/main.c404fb8c.chunk.css.map": "/logic-social-influence/static/css/main.c404fb8c.chunk.css.map",
+    "static/js/2.0980dee4.chunk.js.LICENSE.txt": "/logic-social-influence/static/js/2.0980dee4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.906d989f.js",
+    "static/css/2.4ce9e501.chunk.css",
+    "static/js/2.0980dee4.chunk.js",
+    "static/css/main.c404fb8c.chunk.css",
+    "static/js/main.1683e7c3.chunk.js"
+  ]
+}
