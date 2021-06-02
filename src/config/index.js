@@ -4,9 +4,17 @@ export const DEFAULT_OPTIONS = {
   layout: {
     hierarchical: false,
   },
+  physics: {
+    stabilization: false,
+    barnesHut: {
+      gravitationalConstant: -8000,
+      springConstant: 0.001,
+      springLength: 300,
+    },
+  },
   edges: {
     smooth: true,
-    length: 400,
+    length: 350,
     width: 0.9,
     color: "#007296",
     arrows: {
