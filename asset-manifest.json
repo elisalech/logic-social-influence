@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/logic-social-influence/static/css/main.c404fb8c.chunk.css",
-    "main.js": "/logic-social-influence/static/js/main.faa3f4bf.chunk.js",
-    "main.js.map": "/logic-social-influence/static/js/main.faa3f4bf.chunk.js.map",
+    "main.js": "/logic-social-influence/static/js/main.73f07e48.chunk.js",
+    "main.js.map": "/logic-social-influence/static/js/main.73f07e48.chunk.js.map",
     "runtime-main.js": "/logic-social-influence/static/js/runtime-main.906d989f.js",
     "runtime-main.js.map": "/logic-social-influence/static/js/runtime-main.906d989f.js.map",
     "static/css/2.4ce9e501.chunk.css": "/logic-social-influence/static/css/2.4ce9e501.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.0980dee4.chunk.js",
     "static/css/main.c404fb8c.chunk.css",
-    "static/js/main.faa3f4bf.chunk.js"
+    "static/js/main.73f07e48.chunk.js"
   ]
 }
