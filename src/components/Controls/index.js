@@ -79,7 +79,7 @@ const Controls = ({ setInitialModel, canUpdate, handleClickUpdate }) => {
         {started ? "Перезапустить" : "Начать"}
       </button>
       <button
-        disabled={started && canUpdate !== true}
+        disabled={started ? canUpdate !== true : true}
         onClick={handleClickUpdate}
       >
         Обновить сеть
