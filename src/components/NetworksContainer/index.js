@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 
-import { START_MODEL } from "../../config";
 import Network from "./Network";
 
 const NetworksContainer = ({ initialModel, setCanUpdate, counter }) => {
@@ -14,7 +13,6 @@ const NetworksContainer = ({ initialModel, setCanUpdate, counter }) => {
   }, [counter]);
 
   useEffect(() => {
-    console.log("@initialModel", initialModel);
     initialModel && setGraphs([initialModel]);
   }, [initialModel]);
 
@@ -24,7 +22,6 @@ const NetworksContainer = ({ initialModel, setCanUpdate, counter }) => {
 
   const getNextNodes = () => {
     const last = graphs[graphs.length - 1];
-    console.log("@@@graphs", graphs);
     const { nodes: lastNodes, edges } = last;
 
     const opinionEdges = edges.filter((edge) => !!edge.label);
@@ -32,18 +29,18 @@ const NetworksContainer = ({ initialModel, setCanUpdate, counter }) => {
       (ac, cur) => ({ ...ac, [cur.id]: {} }),
       {}
     );
-
     lastNodes.forEach((node) => {
       const { id } = node;
       const trustEdges = opinionEdges.filter((edge) => edge.from === id);
 
       trustEdges.forEach((edge) => {
         const { to, label } = edge;
+        console.log("@edge", edge, dynamics);
         const trustLevel = parseFloat(label);
         const { opinion } = lastNodes.find((node) => node.id === to);
         dynamics[id][opinion] =
           dynamics[id][opinion] !== undefined
-            ? dynamics[opinion] + trustLevel
+            ? parseFloat(dynamics[id][opinion]) + trustLevel
             : trustLevel;
       });
     });
